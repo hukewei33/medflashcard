@@ -54,7 +54,7 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     # Send the Test!! log message to standard out
-    logger.error("This backend does not have proper views, only API endpoints")
+    #logger.error("This backend does not have proper views, only API endpoints")
     return HttpResponse("This backend does not have proper views, only API endpoints")
 
 #end of logging stuff
