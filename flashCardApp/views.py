@@ -9,7 +9,7 @@ from rest_framework.response import Response
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from knox.views import LoginView as KnoxLoginView
 from knox.models import AuthToken
-from .serializers import CaseSerializer,CaseResSerializer,ExamTypeSerializer,CaseNormSerializer,CaseToCaseResSerializer,UserSerializer, RegisterSerializer
+from .serializers import CaseSerializer,CaseResSerializer,ExamTypeSerializer,CaseNormSerializer,CaseNormSerializer1,CaseToCaseResSerializer,UserSerializer, RegisterSerializer
 from .models import Case,CaseRes,ExamType,MedTest
 import random
 # Create your views here.
@@ -88,15 +88,21 @@ def caseDetail(request, pk):
 @api_view(['POST'])
 @permission_classes((IsAuthenticated,))
 def caseCreate(request):
-	serializer = CaseNormSerializer(data=request.data)
-	if serializer.is_valid():
-         newCase = serializer.save()
-         #link each new case to default result for all of its tests
-         defaultRes = list(map(lambda x: x.result_set.filter(default =True),newCase.examtype.medtests.all()))
-         for r in defaultRes:
-             CaseRes.objects.create(case = newCase,result = r[0], req = False)
-
-	return Response(serializer.data)
+    print("i got called")
+    print(request.data)
+    #serializer = CaseNormSerializer(data=request.data)
+    serializer = CaseNormSerializer1(data=request.data)
+    print(serializer)
+    print("i am",serializer.is_valid())
+    if serializer.is_valid():
+        print("i got called too")
+        newCase = serializer.save()
+        #link each new case to default result for all of its tests
+        defaultRes = list(map(lambda x: x.result_set.filter(default =True),newCase.examtype.medtests.all()))
+        for r in defaultRes:
+            CaseRes.objects.create(case = newCase,result = r[0], req = False)
+    
+    return Response(serializer.data)
 
 @api_view(['GET'])
 #@permission_classes((IsAuthenticated,))

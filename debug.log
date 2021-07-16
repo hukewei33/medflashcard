@@ -141,3 +141,969 @@ Traceback (most recent call last):
 django.db.utils.OperationalError: no such table: django_session
 2021-07-13 14:02:37,145 asyncio      DEBUG    Using selector: EpollSelector
 2021-07-13 14:02:46,734 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 13:17:08,217 django.request WARNING  Not Found: /favicon.ico
+2021-07-15 13:17:31,166 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 13:17:46,827 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 13:19:41,623 PIL.Image    DEBUG    Importing BlpImagePlugin
+2021-07-15 13:19:41,624 PIL.Image    DEBUG    Importing BmpImagePlugin
+2021-07-15 13:19:41,625 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2021-07-15 13:19:41,625 PIL.Image    DEBUG    Importing CurImagePlugin
+2021-07-15 13:19:41,625 PIL.Image    DEBUG    Importing DcxImagePlugin
+2021-07-15 13:19:41,626 PIL.Image    DEBUG    Importing DdsImagePlugin
+2021-07-15 13:19:41,627 PIL.Image    DEBUG    Importing EpsImagePlugin
+2021-07-15 13:19:41,628 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2021-07-15 13:19:41,628 PIL.Image    DEBUG    Importing FliImagePlugin
+2021-07-15 13:19:41,629 PIL.Image    DEBUG    Importing FpxImagePlugin
+2021-07-15 13:19:41,630 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-07-15 13:19:41,630 PIL.Image    DEBUG    Importing FtexImagePlugin
+2021-07-15 13:19:41,630 PIL.Image    DEBUG    Importing GbrImagePlugin
+2021-07-15 13:19:41,631 PIL.Image    DEBUG    Importing GifImagePlugin
+2021-07-15 13:19:41,631 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2021-07-15 13:19:41,631 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2021-07-15 13:19:41,634 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2021-07-15 13:19:41,635 PIL.Image    DEBUG    Importing IcoImagePlugin
+2021-07-15 13:19:41,637 PIL.Image    DEBUG    Importing ImImagePlugin
+2021-07-15 13:19:41,639 PIL.Image    DEBUG    Importing ImtImagePlugin
+2021-07-15 13:19:41,640 PIL.Image    DEBUG    Importing IptcImagePlugin
+2021-07-15 13:19:41,640 PIL.Image    DEBUG    Importing JpegImagePlugin
+2021-07-15 13:19:41,640 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2021-07-15 13:19:41,640 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2021-07-15 13:19:41,641 PIL.Image    DEBUG    Importing MicImagePlugin
+2021-07-15 13:19:41,641 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-07-15 13:19:41,641 PIL.Image    DEBUG    Importing MpegImagePlugin
+2021-07-15 13:19:41,642 PIL.Image    DEBUG    Importing MpoImagePlugin
+2021-07-15 13:19:41,643 PIL.Image    DEBUG    Importing MspImagePlugin
+2021-07-15 13:19:41,643 PIL.Image    DEBUG    Importing PalmImagePlugin
+2021-07-15 13:19:41,646 PIL.Image    DEBUG    Importing PcdImagePlugin
+2021-07-15 13:19:41,646 PIL.Image    DEBUG    Importing PcxImagePlugin
+2021-07-15 13:19:41,646 PIL.Image    DEBUG    Importing PdfImagePlugin
+2021-07-15 13:19:41,653 PIL.Image    DEBUG    Importing PixarImagePlugin
+2021-07-15 13:19:41,654 PIL.Image    DEBUG    Importing PngImagePlugin
+2021-07-15 13:19:41,654 PIL.Image    DEBUG    Importing PpmImagePlugin
+2021-07-15 13:19:41,654 PIL.Image    DEBUG    Importing PsdImagePlugin
+2021-07-15 13:19:41,655 PIL.Image    DEBUG    Importing SgiImagePlugin
+2021-07-15 13:19:41,656 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2021-07-15 13:19:41,656 PIL.Image    DEBUG    Importing SunImagePlugin
+2021-07-15 13:19:41,657 PIL.Image    DEBUG    Importing TgaImagePlugin
+2021-07-15 13:19:41,657 PIL.Image    DEBUG    Importing TiffImagePlugin
+2021-07-15 13:19:41,657 PIL.Image    DEBUG    Importing WebPImagePlugin
+2021-07-15 13:19:41,666 PIL.Image    DEBUG    Importing WmfImagePlugin
+2021-07-15 13:19:41,666 PIL.Image    DEBUG    Importing XbmImagePlugin
+2021-07-15 13:19:41,667 PIL.Image    DEBUG    Importing XpmImagePlugin
+2021-07-15 13:19:41,668 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2021-07-15 13:19:41,712 botocore.hooks DEBUG    Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-07-15 13:19:41,714 botocore.hooks DEBUG    Changing event name from before-call.apigateway to before-call.api-gateway
+2021-07-15 13:19:41,715 botocore.hooks DEBUG    Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-07-15 13:19:41,716 botocore.hooks DEBUG    Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-07-15 13:19:41,717 botocore.hooks DEBUG    Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-07-15 13:19:41,717 botocore.hooks DEBUG    Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-07-15 13:19:41,718 botocore.hooks DEBUG    Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-07-15 13:19:41,721 botocore.hooks DEBUG    Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-07-15 13:19:41,722 botocore.hooks DEBUG    Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-07-15 13:19:41,722 botocore.hooks DEBUG    Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-07-15 13:19:41,722 botocore.hooks DEBUG    Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-07-15 13:19:41,735 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+2021-07-15 13:19:41,739 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/endpoints.json
+2021-07-15 13:19:41,744 botocore.hooks DEBUG    Event choose-service-name: calling handler <function handle_service_name_alias at 0x7ffac07628b0>
+2021-07-15 13:19:41,752 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2021-07-15 13:19:41,801 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7ffacb757820>
+2021-07-15 13:19:41,802 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7ffac13ec040>
+2021-07-15 13:19:41,826 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7ffacb7575e0>
+2021-07-15 13:19:41,829 botocore.endpoint DEBUG    Setting s3 timeout as (60, 60)
+2021-07-15 13:19:41,831 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/_retry.json
+2021-07-15 13:19:41,832 botocore.client DEBUG    Registering retry handlers for service: s3
+2021-07-15 13:19:41,833 boto3.resources.factory DEBUG    Loading s3:s3
+2021-07-15 13:19:41,835 boto3.resources.factory DEBUG    Loading s3:Bucket
+2021-07-15 13:19:41,835 boto3.resources.model DEBUG    Renaming Bucket attribute name
+2021-07-15 13:19:41,836 botocore.hooks DEBUG    Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7ffacb836f70>
+2021-07-15 13:19:41,837 boto3.resources.factory DEBUG    Loading s3:Object
+2021-07-15 13:19:41,838 botocore.hooks DEBUG    Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7ffac0694040>
+2021-07-15 13:19:41,838 s3transfer.utils DEBUG    Acquiring 0
+2021-07-15 13:19:41,838 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac2f18f10>}) about to wait for the following futures []
+2021-07-15 13:19:41,839 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac2f18f10>}) done waiting for dependent futures
+2021-07-15 13:19:41,839 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac2f18f10>}) with kwargs {'client': <botocore.client.S3 object at 0x7ffac14a7820>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7ffac2f9f0a0>, 'osutil': <s3transfer.utils.OSUtils object at 0x7ffac2f9f9a0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7ffac2f9fbe0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac2f18f10>}
+2021-07-15 13:19:41,839 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'hsp01.jpg', 'extra_args': {'ContentType': 'image/jpeg'}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7ffac2f9fbe0> for transfer request: 0.
+2021-07-15 13:19:41,839 s3transfer.utils DEBUG    Acquiring 0
+2021-07-15 13:19:41,840 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'hsp01.jpg', 'extra_args': {'ContentType': 'image/jpeg'}}) about to wait for the following futures []
+2021-07-15 13:19:41,840 s3transfer.utils DEBUG    Releasing acquire 0/None
+2021-07-15 13:19:41,840 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'hsp01.jpg', 'extra_args': {'ContentType': 'image/jpeg'}}) done waiting for dependent futures
+2021-07-15 13:19:41,840 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'hsp01.jpg', 'extra_args': {'ContentType': 'image/jpeg'}}) with kwargs {'client': <botocore.client.S3 object at 0x7ffac14a7820>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7ffac2f79310>, 'bucket': 'medflashcards', 'key': 'hsp01.jpg', 'extra_args': {'ContentType': 'image/jpeg'}}
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7ffac0786e50>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7ffac0787790>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:41,841 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:41,842 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7ffacb8583a0>
+2021-07-15 13:19:41,842 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7ffac0786550>
+2021-07-15 13:19:41,842 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2021-07-15 13:19:41,842 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:41,842 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7ffac07878b0>
+2021-07-15 13:19:41,842 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/medflashcards/hsp01.jpg', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-Type': 'image/jpeg', 'User-Agent': 'Boto3/1.17.112 Python/3.8.5 Linux/5.4.72-microsoft-standard-WSL2 Botocore/1.20.112 Resource', 'Content-MD5': 'kthQEMPwvoTjyAyuYUA1+A==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7ffac2f79310>, 'url': 'https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x7ffac148fac0>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'medflashcards'}}}
+2021-07-15 13:19:41,842 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7ffac0318940>
+2021-07-15 13:19:41,843 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7ffac148faf0>>
+2021-07-15 13:19:41,843 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:41,843 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7ffac077dee0>
+2021-07-15 13:19:41,843 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:41,843 botocore.utils DEBUG    Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2021-07-15 13:19:41,843 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:41,843 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.ap-southeast-1.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:41,844 botocore.auth DEBUG    Calculating signature using v4 auth.
+2021-07-15 13:19:41,844 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/hsp01.jpg
+
+content-md5:kthQEMPwvoTjyAyuYUA1+A==
+content-type:image/jpeg
+host:medflashcards.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210715T131941Z
+
+content-md5;content-type;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2021-07-15 13:19:41,844 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20210715T131941Z
+20210715/ap-southeast-1/s3/aws4_request
+d751217ad920d93bd6f389d7a20eff4ae9e7a8e24a178fd6cd5843ce948f3757
+2021-07-15 13:19:41,844 botocore.auth DEBUG    Signature:
+ee7dc0b76df78cc1298bf61179a6bdc9b1b85b5e6ac1afaa0f5a488ebe3e8488
+2021-07-15 13:19:41,844 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7ffac03189d0>
+2021-07-15 13:19:41,844 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://medflashcards.s3.ap-southeast-1.amazonaws.com/hsp01.jpg, headers={'Content-Type': b'image/jpeg', 'User-Agent': b'Boto3/1.17.112 Python/3.8.5 Linux/5.4.72-microsoft-standard-WSL2 Botocore/1.20.112 Resource', 'Content-MD5': b'kthQEMPwvoTjyAyuYUA1+A==', 'Expect': b'100-continue', 'X-Amz-Date': b'20210715T131941Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3A2HKO7YG46OC2V/20210715/ap-southeast-1/s3/aws4_request, SignedHeaders=content-md5;content-type;host;x-amz-content-sha256;x-amz-date, Signature=ee7dc0b76df78cc1298bf61179a6bdc9b1b85b5e6ac1afaa0f5a488ebe3e8488', 'Content-Length': '49190'}>
+2021-07-15 13:19:41,845 botocore.httpsession DEBUG    Certificate path: /etc/ssl/certs/ca-certificates.crt
+2021-07-15 13:19:41,845 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): medflashcards.s3.ap-southeast-1.amazonaws.com:443
+2021-07-15 13:19:41,899 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2021-07-15 13:19:41,922 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2021-07-15 13:19:41,962 urllib3.connectionpool DEBUG    https://medflashcards.s3.ap-southeast-1.amazonaws.com:443 "PUT /hsp01.jpg HTTP/1.1" 200 0
+2021-07-15 13:19:41,963 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'wGdcGZVsMt/uLWcM/tIwXiXaBztRAsQhIalRPDr9TPZq7djwhNdztI6MYfseGhEF6efkflgDiVA=', 'x-amz-request-id': 'R85F5MWHEDNYWNX9', 'Date': 'Thu, 15 Jul 2021 13:16:19 GMT', 'ETag': '"92d85010c3f0be84e3c80cae614035f8"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2021-07-15 13:19:41,964 botocore.parsers DEBUG    Response body:
+b''
+2021-07-15 13:19:41,964 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7ffac04e6700>
+2021-07-15 13:19:41,964 botocore.retryhandler DEBUG    No retry needed.
+2021-07-15 13:19:41,964 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:41,965 s3transfer.utils DEBUG    Releasing acquire 0/None
+2021-07-15 13:19:41,966 boto3.resources.factory DEBUG    Loading s3:Object
+2021-07-15 13:19:41,967 botocore.hooks DEBUG    Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x7ffac0694040>
+2021-07-15 13:19:41,968 s3transfer.utils DEBUG    Acquiring 0
+2021-07-15 13:19:41,968 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac1d7c790>}) about to wait for the following futures []
+2021-07-15 13:19:41,968 s3transfer.tasks DEBUG    UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac1d7c790>}) done waiting for dependent futures
+2021-07-15 13:19:41,968 s3transfer.tasks DEBUG    Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac1d7c790>}) with kwargs {'client': <botocore.client.S3 object at 0x7ffac14a7820>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7ffac2f9fd00>, 'osutil': <s3transfer.utils.OSUtils object at 0x7ffac2f9fcd0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7ffac2f9fbe0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7ffac1d7c790>}
+2021-07-15 13:19:41,969 s3transfer.futures DEBUG    Submitting task PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'audio/reeee_H8hIO2e.mp3', 'extra_args': {'ContentType': 'audio/mpeg'}}) to executor <s3transfer.futures.BoundedExecutor object at 0x7ffac2f9fbe0> for transfer request: 0.
+2021-07-15 13:19:41,969 s3transfer.utils DEBUG    Acquiring 0
+2021-07-15 13:19:41,969 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'audio/reeee_H8hIO2e.mp3', 'extra_args': {'ContentType': 'audio/mpeg'}}) about to wait for the following futures []
+2021-07-15 13:19:41,969 s3transfer.utils DEBUG    Releasing acquire 0/None
+2021-07-15 13:19:41,969 s3transfer.tasks DEBUG    PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'audio/reeee_H8hIO2e.mp3', 'extra_args': {'ContentType': 'audio/mpeg'}}) done waiting for dependent futures
+2021-07-15 13:19:41,970 s3transfer.tasks DEBUG    Executing task PutObjectTask(transfer_id=0, {'bucket': 'medflashcards', 'key': 'audio/reeee_H8hIO2e.mp3', 'extra_args': {'ContentType': 'audio/mpeg'}}) with kwargs {'client': <botocore.client.S3 object at 0x7ffac14a7820>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x7ffac2f322e0>, 'bucket': 'medflashcards', 'key': 'audio/reeee_H8hIO2e.mp3', 'extra_args': {'ContentType': 'audio/mpeg'}}
+2021-07-15 13:19:41,970 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x7ffac0786e50>
+2021-07-15 13:19:41,970 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:41,970 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x7ffac0787790>
+2021-07-15 13:19:41,970 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:41,970 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x7ffacb8583a0>
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x7ffac0786550>
+2021-07-15 13:19:41,971 botocore.handlers DEBUG    Adding expect 100 continue header to request.
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x7ffac07878b0>
+2021-07-15 13:19:41,971 botocore.endpoint DEBUG    Making request for OperationModel(name=PutObject) with params: {'url_path': '/medflashcards/audio/reeee_H8hIO2e.mp3', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-Type': 'audio/mpeg', 'User-Agent': 'Boto3/1.17.112 Python/3.8.5 Linux/5.4.72-microsoft-standard-WSL2 Botocore/1.20.112 Resource', 'Content-MD5': 'AvZSlT20dASXfZoYKGmoew==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x7ffac2f322e0>, 'url': 'https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3', 'context': {'client_region': 'ap-southeast-1', 'client_config': <botocore.config.Config object at 0x7ffac148fac0>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'medflashcards'}}}
+2021-07-15 13:19:41,971 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x7ffac0318940>
+2021-07-15 13:19:41,972 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7ffac148faf0>>
+2021-07-15 13:19:41,972 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:41,972 botocore.hooks DEBUG    Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x7ffac077dee0>
+2021-07-15 13:19:41,972 botocore.hooks DEBUG    Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:41,972 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:41,972 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.ap-southeast-1.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:41,972 botocore.auth DEBUG    Calculating signature using v4 auth.
+2021-07-15 13:19:41,972 botocore.auth DEBUG    CanonicalRequest:
+PUT
+/audio/reeee_H8hIO2e.mp3
+
+content-md5:AvZSlT20dASXfZoYKGmoew==
+content-type:audio/mpeg
+host:medflashcards.s3.ap-southeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210715T131941Z
+
+content-md5;content-type;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2021-07-15 13:19:41,973 botocore.auth DEBUG    StringToSign:
+AWS4-HMAC-SHA256
+20210715T131941Z
+20210715/ap-southeast-1/s3/aws4_request
+d756592ddb2e11510f3994aec83eac0cf4f2957960471282d6aafaa3c95ff00e
+2021-07-15 13:19:41,973 botocore.auth DEBUG    Signature:
+f206e6c6f165417e4e2612c64cf8fe111c5ac758573281e92889d98180ab250f
+2021-07-15 13:19:41,973 botocore.hooks DEBUG    Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x7ffac03189d0>
+2021-07-15 13:19:41,973 botocore.endpoint DEBUG    Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://medflashcards.s3.ap-southeast-1.amazonaws.com/audio/reeee_H8hIO2e.mp3, headers={'Content-Type': b'audio/mpeg', 'User-Agent': b'Boto3/1.17.112 Python/3.8.5 Linux/5.4.72-microsoft-standard-WSL2 Botocore/1.20.112 Resource', 'Content-MD5': b'AvZSlT20dASXfZoYKGmoew==', 'Expect': b'100-continue', 'X-Amz-Date': b'20210715T131941Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3A2HKO7YG46OC2V/20210715/ap-southeast-1/s3/aws4_request, SignedHeaders=content-md5;content-type;host;x-amz-content-sha256;x-amz-date, Signature=f206e6c6f165417e4e2612c64cf8fe111c5ac758573281e92889d98180ab250f', 'Content-Length': '47207'}>
+2021-07-15 13:19:41,974 botocore.httpsession DEBUG    Certificate path: /etc/ssl/certs/ca-certificates.crt
+2021-07-15 13:19:41,974 botocore.awsrequest DEBUG    Waiting for 100 Continue response.
+2021-07-15 13:19:41,987 botocore.awsrequest DEBUG    100 Continue response seen, now sending request body.
+2021-07-15 13:19:42,018 urllib3.connectionpool DEBUG    https://medflashcards.s3.ap-southeast-1.amazonaws.com:443 "PUT /audio/reeee_H8hIO2e.mp3 HTTP/1.1" 200 0
+2021-07-15 13:19:42,019 botocore.parsers DEBUG    Response headers: {'x-amz-id-2': 'PxQ5R3tqRdNyc07flHvb5kJzSfHd4UZcweU+aiW7eWd3mUUWkSS4rE6N6ZEv4PjgI74msNyJSQQ=', 'x-amz-request-id': 'R8513AQED3KB4G09', 'Date': 'Thu, 15 Jul 2021 13:16:19 GMT', 'ETag': '"02f652953db47404977d9a182869a87b"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2021-07-15 13:19:42,019 botocore.parsers DEBUG    Response body:
+b''
+2021-07-15 13:19:42,019 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7ffac04e6700>
+2021-07-15 13:19:42,019 botocore.retryhandler DEBUG    No retry needed.
+2021-07-15 13:19:42,019 botocore.hooks DEBUG    Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:42,020 s3transfer.utils DEBUG    Releasing acquire 0/None
+2021-07-15 13:19:46,751 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,751 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,751 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,751 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,751 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,752 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,752 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,752 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,752 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:46,752 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,753 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,753 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,753 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,754 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,754 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,754 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,754 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,754 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,755 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,755 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,755 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:46,755 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,755 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,755 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,757 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,757 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,757 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,757 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,757 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,758 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,758 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,758 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,758 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:46,758 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,758 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,758 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:46,760 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,760 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,760 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,760 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,760 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,761 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,761 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,761 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,761 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,761 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,761 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,762 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,762 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,762 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,762 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,763 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,763 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,763 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,763 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,764 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,764 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,764 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,764 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,764 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,766 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:46,766 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:46,766 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:46,767 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:46,767 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:46,767 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:46,767 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:46,767 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,767 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:46,768 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:46,768 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:46,768 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358786
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,280 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,281 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,281 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,281 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,281 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,281 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,282 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,282 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,282 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:53,282 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,282 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,282 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,283 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,283 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,283 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,283 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,283 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,284 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,284 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,284 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,284 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:53,284 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,284 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,284 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,286 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,286 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,286 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,286 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,286 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,287 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,287 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,287 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,287 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:53,288 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,288 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,288 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:53,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,291 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,291 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,291 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,291 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,291 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,291 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,291 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,293 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,293 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,293 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,293 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,293 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,294 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,294 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,295 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:53,296 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:53,297 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,297 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:53,297 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:53,297 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:53,297 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358793
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:56,162 django.request WARNING  Not Found: /favicon.ico
+2021-07-15 13:19:58,288 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,289 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,290 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,291 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,291 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,291 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,291 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,292 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:58,292 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,292 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,292 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,292 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,293 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,293 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,293 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,293 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,293 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,294 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,294 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,294 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:58,294 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,294 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,294 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,296 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,297 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,297 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,297 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,297 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 13:19:58,297 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,297 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,298 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/hsp01.jpg
+2021-07-15 13:19:58,300 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,301 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,301 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,301 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,301 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,302 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,302 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,303 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,303 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,303 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,304 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,304 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,305 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,305 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,305 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,305 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,305 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,306 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,306 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,306 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,306 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,306 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,306 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,306 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,308 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7ffac0786280>
+2021-07-15 13:19:58,308 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7ffac07861f0>
+2021-07-15 13:19:58,308 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7ffac04e6670>>
+2021-07-15 13:19:58,308 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7ffac04e6070>>
+2021-07-15 13:19:58,309 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7ffac0786040>
+2021-07-15 13:19:58,309 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7ffac06d8fa0>>
+2021-07-15 13:19:58,309 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7ffac04e6130>>
+2021-07-15 13:19:58,309 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,309 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:19:58,310 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 13:19:58,310 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 13:19:58,310 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626358798
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 13:20:06,127 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:09:08,732 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/medFlashCards/settings.py changed, reloading.
+2021-07-15 14:09:08,738 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:09:18,246 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-07-15 14:09:18,277 django.request WARNING  Bad Request: /api/login/
+2021-07-15 14:09:42,432 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-07-15 14:09:42,450 django.request WARNING  Bad Request: /api/register/
+2021-07-15 14:10:09,349 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-07-15 14:10:09,373 django.request WARNING  Bad Request: /api/login/
+2021-07-15 14:11:12,092 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/medFlashCards/settings.py changed, reloading.
+2021-07-15 14:11:12,093 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:16:11,688 django.request WARNING  Unauthorized: /api/case-create/
+2021-07-15 14:16:11,690 django.request WARNING  Unauthorized: /api/case-create/
+2021-07-15 14:16:15,942 django.request WARNING  Unauthorized: /api/case-create/
+2021-07-15 14:21:05,884 django.request WARNING  Not Found: //api/case-create/
+2021-07-15 14:24:46,571 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:24:46,573 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:27:07,160 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:27:07,160 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:29:07,854 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:29:07,855 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:34:04,691 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:34:04,692 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:37:21,823 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:37:21,824 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:42:29,482 MARKDOWN     DEBUG    Successfuly imported extension module "markdown.extensions.toc".
+2021-07-15 14:42:29,483 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-07-15 14:44:20,607 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-07-15 14:44:20,607 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:44:46,782 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:44:46,783 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:44:52,384 django.request ERROR    Internal Server Error: /api/case-create/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 94, in caseCreate
+    serializer = CaseNormSerializer1(data=request.data)
+NameError: name 'CaseNormSerializer1' is not defined
+2021-07-15 14:45:11,069 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-15 14:45:11,070 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:47:34,152 botocore.hooks DEBUG    Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-07-15 14:47:34,153 botocore.hooks DEBUG    Changing event name from before-call.apigateway to before-call.api-gateway
+2021-07-15 14:47:34,154 botocore.hooks DEBUG    Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-07-15 14:47:34,155 botocore.hooks DEBUG    Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-07-15 14:47:34,156 botocore.hooks DEBUG    Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-07-15 14:47:34,156 botocore.hooks DEBUG    Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-07-15 14:47:34,156 botocore.hooks DEBUG    Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-07-15 14:47:34,159 botocore.hooks DEBUG    Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-07-15 14:47:34,159 botocore.hooks DEBUG    Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-07-15 14:47:34,159 botocore.hooks DEBUG    Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-07-15 14:47:34,159 botocore.hooks DEBUG    Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-07-15 14:47:34,173 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+2021-07-15 14:47:34,177 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/endpoints.json
+2021-07-15 14:47:34,185 botocore.hooks DEBUG    Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fb3382090d0>
+2021-07-15 14:47:34,193 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2021-07-15 14:47:34,204 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fb338237040>
+2021-07-15 14:47:34,204 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fb3384bbe50>
+2021-07-15 14:47:34,215 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fb338238dc0>
+2021-07-15 14:47:34,218 botocore.endpoint DEBUG    Setting s3 timeout as (60, 60)
+2021-07-15 14:47:34,220 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/_retry.json
+2021-07-15 14:47:34,220 botocore.client DEBUG    Registering retry handlers for service: s3
+2021-07-15 14:47:34,222 boto3.resources.factory DEBUG    Loading s3:s3
+2021-07-15 14:47:34,223 boto3.resources.factory DEBUG    Loading s3:Bucket
+2021-07-15 14:47:34,224 boto3.resources.model DEBUG    Renaming Bucket attribute name
+2021-07-15 14:47:34,226 botocore.hooks DEBUG    Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7fb3415ec820>
+2021-07-15 14:47:34,226 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:47:34,226 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:47:34,227 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:47:34,227 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:47:34,227 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:47:34,228 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:47:34,228 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:47:34,228 botocore.utils DEBUG    Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2021-07-15 14:47:34,228 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:47:34,229 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:47:34,229 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:47:34,229 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:47:34,229 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364054
+/medflashcards/hsp01.jpg
+2021-07-15 14:47:34,230 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:47:34,230 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:47:34,230 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:47:34,230 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:47:34,230 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:47:34,231 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:47:34,231 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:47:34,231 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:47:34,231 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:47:34,232 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:47:34,232 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:47:34,232 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364054
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:47:34,232 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:47:34,233 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:47:34,233 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:47:34,233 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:47:34,233 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:47:34,233 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:47:34,234 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:47:34,234 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:47:34,234 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:47:34,234 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:47:34,234 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:47:34,234 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364054
+/medflashcards/hsp01.jpg
+2021-07-15 14:47:34,235 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:47:34,236 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:47:34,237 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:47:34,238 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:47:34,239 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:47:34,239 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:47:34,239 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:47:34,240 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:47:34,240 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:47:34,240 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:47:34,240 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:47:34,240 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364054
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,121 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:00,121 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:00,122 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:00,122 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:00,122 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:00,122 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:00,123 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:00,123 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:48:00,123 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:48:00,124 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:00,124 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:00,124 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364080
+/medflashcards/hsp01.jpg
+2021-07-15 14:48:00,125 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:00,125 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:00,126 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:00,126 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:00,126 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:00,127 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:00,127 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:00,128 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,128 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,128 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:00,128 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:00,128 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364080
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,129 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:00,129 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:00,129 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:00,129 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:00,129 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:00,130 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:00,130 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:00,130 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:48:00,130 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:48:00,130 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:00,130 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:00,131 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364080
+/medflashcards/hsp01.jpg
+2021-07-15 14:48:00,131 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:00,131 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:00,131 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:00,131 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:00,132 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:00,132 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:00,132 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:00,132 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,132 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:00,133 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:00,133 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:00,133 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364080
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,100 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:31,100 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:31,100 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:31,100 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:31,100 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:31,101 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:31,101 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:31,101 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:48:31,101 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:48:31,101 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:31,101 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:31,101 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364111
+/medflashcards/hsp01.jpg
+2021-07-15 14:48:31,102 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:31,102 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:31,102 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:31,103 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:31,103 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:31,103 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:31,104 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:31,104 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,104 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,104 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:31,105 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:31,105 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364111
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,106 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:31,107 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:31,107 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:31,107 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:31,107 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:31,108 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:31,109 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:31,109 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:48:31,109 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:48:31,109 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:31,110 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:31,110 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364111
+/medflashcards/hsp01.jpg
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:48:31,111 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:48:31,112 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:48:31,112 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,112 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:48:31,112 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:48:31,112 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:48:31,112 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364111
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:11,290 MARKDOWN     DEBUG    Successfuly imported extension module "markdown.extensions.toc".
+2021-07-15 14:49:11,291 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-07-15 14:49:42,470 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:49:42,470 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:49:42,470 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:49:42,471 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:49:42,471 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:49:42,471 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:49:42,471 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:49:42,472 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:49:42,472 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:49:42,472 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:49:42,472 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:49:42,472 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364182
+/medflashcards/hsp01.jpg
+2021-07-15 14:49:42,473 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:49:42,473 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:49:42,473 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:49:42,474 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:49:42,474 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:49:42,474 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:49:42,475 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:49:42,475 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:42,476 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:42,476 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:49:42,476 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:49:42,476 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364182
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:42,477 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:49:42,477 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:49:42,477 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:49:42,477 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:49:42,478 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:49:42,478 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:49:42,478 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:49:42,478 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:49:42,478 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:49:42,479 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:49:42,479 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:49:42,479 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364182
+/medflashcards/hsp01.jpg
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fb341680a60>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fb3416809d0>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7fb333be1460>>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7fb333be1520>>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fb341680820>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fb341660b20>>
+2021-07-15 14:49:42,480 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7fb333be15b0>>
+2021-07-15 14:49:42,480 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:42,481 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:49:42,481 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:49:42,481 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:49:42,481 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364182
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:50:11,208 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-15 14:51:01,944 botocore.hooks DEBUG    Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-07-15 14:51:01,946 botocore.hooks DEBUG    Changing event name from before-call.apigateway to before-call.api-gateway
+2021-07-15 14:51:01,946 botocore.hooks DEBUG    Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-07-15 14:51:01,948 botocore.hooks DEBUG    Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-07-15 14:51:01,948 botocore.hooks DEBUG    Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-07-15 14:51:01,948 botocore.hooks DEBUG    Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-07-15 14:51:01,949 botocore.hooks DEBUG    Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-07-15 14:51:01,951 botocore.hooks DEBUG    Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-07-15 14:51:01,951 botocore.hooks DEBUG    Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-07-15 14:51:01,951 botocore.hooks DEBUG    Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-07-15 14:51:01,952 botocore.hooks DEBUG    Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-07-15 14:51:01,961 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+2021-07-15 14:51:01,964 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/endpoints.json
+2021-07-15 14:51:01,969 botocore.hooks DEBUG    Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f650bdbe0d0>
+2021-07-15 14:51:01,976 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2021-07-15 14:51:01,988 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f650bdeb040>
+2021-07-15 14:51:01,988 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7f6510078dc0>
+2021-07-15 14:51:01,999 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f650bdeddc0>
+2021-07-15 14:51:02,001 botocore.endpoint DEBUG    Setting s3 timeout as (60, 60)
+2021-07-15 14:51:02,003 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/_retry.json
+2021-07-15 14:51:02,003 botocore.client DEBUG    Registering retry handlers for service: s3
+2021-07-15 14:51:02,004 boto3.resources.factory DEBUG    Loading s3:s3
+2021-07-15 14:51:02,006 boto3.resources.factory DEBUG    Loading s3:Bucket
+2021-07-15 14:51:02,006 boto3.resources.model DEBUG    Renaming Bucket attribute name
+2021-07-15 14:51:02,007 botocore.hooks DEBUG    Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7f65191b6820>
+2021-07-15 14:51:02,007 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f6519248a60>
+2021-07-15 14:51:02,007 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f65192489d0>
+2021-07-15 14:51:02,007 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f650b7a3310>>
+2021-07-15 14:51:02,007 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f650b7a33d0>>
+2021-07-15 14:51:02,008 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f6519248820>
+2021-07-15 14:51:02,008 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f651922d9d0>>
+2021-07-15 14:51:02,008 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f650b7a3460>>
+2021-07-15 14:51:02,008 botocore.utils DEBUG    Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2021-07-15 14:51:02,008 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:51:02,009 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:51:02,009 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:51:02,009 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:51:02,009 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364262
+/medflashcards/hsp01.jpg
+2021-07-15 14:51:02,009 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f6519248a60>
+2021-07-15 14:51:02,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f65192489d0>
+2021-07-15 14:51:02,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f650b7a3310>>
+2021-07-15 14:51:02,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f650b7a33d0>>
+2021-07-15 14:51:02,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f6519248820>
+2021-07-15 14:51:02,010 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f651922d9d0>>
+2021-07-15 14:51:02,011 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f650b7a3460>>
+2021-07-15 14:51:02,011 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:02,011 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:02,011 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:51:02,011 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:51:02,012 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364262
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:02,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f6519248a60>
+2021-07-15 14:51:02,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f65192489d0>
+2021-07-15 14:51:02,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f650b7a3310>>
+2021-07-15 14:51:02,013 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f650b7a33d0>>
+2021-07-15 14:51:02,013 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f6519248820>
+2021-07-15 14:51:02,013 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f651922d9d0>>
+2021-07-15 14:51:02,013 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f650b7a3460>>
+2021-07-15 14:51:02,014 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-15 14:51:02,014 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-15 14:51:02,014 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:51:02,014 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:51:02,014 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364262
+/medflashcards/hsp01.jpg
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f6519248a60>
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f65192489d0>
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f650b7a3310>>
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f650b7a33d0>>
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f6519248820>
+2021-07-15 14:51:02,015 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f651922d9d0>>
+2021-07-15 14:51:02,016 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f650b7a3460>>
+2021-07-15 14:51:02,016 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:02,016 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:02,016 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-15 14:51:02,016 botocore.auth DEBUG    HTTP request method: GET
+2021-07-15 14:51:02,016 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626364262
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-15 14:51:59,902 asyncio      DEBUG    Using selector: EpollSelector

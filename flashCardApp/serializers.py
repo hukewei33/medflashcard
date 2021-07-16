@@ -56,7 +56,11 @@ class CaseNormSerializer(serializers.ModelSerializer):
         model = Case
         fields = "__all__"
 
-
+class CaseNormSerializer1(serializers.ModelSerializer):
+    #examtype = ExamTypeSerializer()
+    class Meta:
+        model = Case
+        fields = "__all__"
 
 class MedTestSerializer(serializers.ModelSerializer):
     class Meta:
