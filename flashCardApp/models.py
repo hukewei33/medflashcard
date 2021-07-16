@@ -26,8 +26,8 @@ class MedTest(models.Model):
 class Result(models.Model):
     data = models.ImageField(null = True, blank = True)
     audiodata = models.FileField(upload_to='audio', blank=True, null=True)
-    des = models.CharField(max_length=200)
-    name = models.CharField(max_length=200, blank=True, null=True)
+    des = models.CharField(max_length=200, blank=True, null=True)
+    name = models.CharField(max_length=200)
     medTest = models.ForeignKey(MedTest, on_delete=models.CASCADE, blank=True, null=True)
     default = models.BooleanField(blank=True, null=True)
     def __str__(self):

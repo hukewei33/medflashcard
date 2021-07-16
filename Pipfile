@@ -27,6 +27,7 @@ Pillow = "==8.2.0"
 django-environ = "*"
 boto3 = "*"
 django-storages = "*"
+django-import-export = "*"
 
 [dev-packages]
 
