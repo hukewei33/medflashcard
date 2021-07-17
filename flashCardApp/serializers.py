@@ -50,13 +50,13 @@ class ExamTypeSerializer(serializers.ModelSerializer):
         model = ExamType
         fields = ('name','id')
         
-class CaseNormSerializer(serializers.ModelSerializer):
+class CaseToExamTypeSerializer(serializers.ModelSerializer):
     examtype = ExamTypeSerializer()
     class Meta:
         model = Case
         fields = "__all__"
 
-class CaseNormSerializer1(serializers.ModelSerializer):
+class CaseNormSerializer(serializers.ModelSerializer):
     #examtype = ExamTypeSerializer()
     class Meta:
         model = Case

@@ -2,14 +2,14 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.contrib.auth import login
 
-from rest_framework import viewsets,generics, permissions
+from rest_framework import viewsets,generics, permissions,status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from knox.views import LoginView as KnoxLoginView
 from knox.models import AuthToken
-from .serializers import CaseSerializer,CaseResSerializer,ExamTypeSerializer,CaseNormSerializer,CaseNormSerializer1,CaseToCaseResSerializer,UserSerializer, RegisterSerializer
+from .serializers import CaseSerializer,CaseResSerializer,ExamTypeSerializer,CaseToExamTypeSerializer,CaseNormSerializer,CaseToCaseResSerializer,UserSerializer, RegisterSerializer
 from .models import Case,CaseRes,ExamType,MedTest
 import random
 # Create your views here.
@@ -53,49 +53,46 @@ logging.config.dictConfig({
 logger = logging.getLogger(__name__)
 
 def index(request):
-    # Send the Test!! log message to standard out
-    #logger.error("This backend does not have proper views, only API endpoints")
     return HttpResponse("This backend does not have proper views, only API endpoints")
 
 #end of logging stuff
 
+#to list all the cases with their examtype
 @api_view(['GET'])
-def CaseViewRandom(request):
+#@permission_classes((IsAuthenticated,))
+def caseList(request):
+	case = Case.objects.all().order_by('-id')
+	serializer = CaseToExamTypeSerializer(case, many=True)
+	return Response(serializer.data)
+
+#for testing
+#get random case    
+@api_view(['GET'])
+def CaseTestRandom(request):
     r = random.randrange(Case.objects.all().count())
     case = Case.objects.all()[r]
     serializer = CaseSerializer(case, many=False)
     return Response(serializer.data)
 
-# class CaseViewRandom(viewsets.ModelViewSet):
-#     serializer_class = CaseSerializer
-#     def get_queryset(self):
-#         r = random.randrange(Case.objects.all().count())
-#         return [Case.objects.all()[r]]
-    
-class ExamTypeView(viewsets.ModelViewSet):
-    serializer_class = ExamTypeSerializer
-    queryset = ExamType.objects.all()
-
-
+#get specific case
 @api_view(['GET'])
-
-def caseDetail(request, pk):
+def caseTest(request, pk):
 	case = Case.objects.get(id=pk)
 	serializer = CaseSerializer(case, many=False)
 	return Response(serializer.data)
 
+# create a new case
+# list all examtytpes   
+class ExamTypeView(viewsets.ModelViewSet):
+    serializer_class = ExamTypeSerializer
+    queryset = ExamType.objects.all()
 
+#create a new case and create a relationship with default result of each related medtest
 @api_view(['POST'])
 @permission_classes((IsAuthenticated,))
 def caseCreate(request):
-    print("i got called")
-    print(request.data)
-    #serializer = CaseNormSerializer(data=request.data)
-    serializer = CaseNormSerializer1(data=request.data)
-    print(serializer)
-    print("i am",serializer.is_valid())
+    serializer = CaseNormSerializer(data=request.data)
     if serializer.is_valid():
-        print("i got called too")
         newCase = serializer.save()
         #link each new case to default result for all of its tests
         defaultRes = list(map(lambda x: x.result_set.filter(default =True),newCase.examtype.medtests.all()))
@@ -104,20 +101,13 @@ def caseCreate(request):
     
     return Response(serializer.data)
 
-@api_view(['GET'])
-#@permission_classes((IsAuthenticated,))
-def caseList(request):
-	case = Case.objects.all().order_by('-id')
-	serializer = CaseNormSerializer(case, many=True)
-	return Response(serializer.data)
-
-
+#get all related caseres for each case
 @api_view(['GET'])
 def caseToCaseResDetail(request, pk):
 	case = Case.objects.get(id=pk)
 	serializer = CaseToCaseResSerializer(case, many=False)
 	return Response(serializer.data)
-
+#edit individual caseres
 @api_view(['POST'])
 def caseResUpdate(request, pk):
 	caseres = CaseRes.objects.get(id=pk)
@@ -128,6 +118,17 @@ def caseResUpdate(request, pk):
 
 	return Response(serializer.data)
 
+#view edit and delete cases
+
+class CaseDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Case.objects.all()
+    serializer_class = CaseNormSerializer
+
+@api_view(['DELETE','GET'])
+def caseDelete(request, pk):
+	case = Case.objects.get(id=pk)
+	case.delete()
+	return Response(status=status.HTTP_204_NO_CONTENT)
 # Register API
 class RegisterAPI(generics.GenericAPIView):
     serializer_class = RegisterSerializer
