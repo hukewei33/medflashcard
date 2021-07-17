@@ -1632,3 +1632,9 @@ ValueError: Field 'id' expected a number but got '"3'.
 2021-07-16 10:09:52,365 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/admin.py changed, reloading.
 2021-07-16 10:09:52,366 asyncio      DEBUG    Using selector: EpollSelector
 2021-07-16 10:13:05,962 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-17 13:06:22,693 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-07-17 13:06:22,694 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-17 13:07:00,491 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-17 13:08:26,270 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-17 13:08:53,772 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-07-17 13:08:53,774 asyncio      DEBUG    Using selector: EpollSelector
