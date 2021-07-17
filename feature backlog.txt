@@ -1,3 +1,4 @@
 backend backlog
 - include validaiton for default results for each med test exists
-- inlcude validaiton that location and test catagory name are unique
+- inlcude validaiton that location ,test catagory,medtest name are unique
+- create api endpoints to delete case and associated case res 
