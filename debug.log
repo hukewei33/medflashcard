@@ -65,3 +65,1068 @@ Traceback (most recent call last):
   File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
     raise self.model.DoesNotExist(
 flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
+2021-07-18 02:01:11,754 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 02:01:11,757 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 02:23:15,701 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-18 02:23:15,727 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-18 11:31:55,305 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 11:31:55,307 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 11:32:46,461 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 11:32:46,461 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 11:47:16,466 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 11:47:16,468 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 11:47:37,878 django.request WARNING  Unauthorized: /api/case-create/
+2021-07-18 11:48:17,664 django.request ERROR    Internal Server Error: /api/case-create/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 103, in caseCreate
+    CaseRes.objects.create(case = newCase,result = r[0], req = False)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+2021-07-18 11:49:41,891 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 12:19:18,964 botocore.hooks DEBUG    Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-07-18 12:19:18,965 botocore.hooks DEBUG    Changing event name from before-call.apigateway to before-call.api-gateway
+2021-07-18 12:19:18,966 botocore.hooks DEBUG    Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-07-18 12:19:18,967 botocore.hooks DEBUG    Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-07-18 12:19:18,967 botocore.hooks DEBUG    Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-07-18 12:19:18,967 botocore.hooks DEBUG    Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-07-18 12:19:18,968 botocore.hooks DEBUG    Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-07-18 12:19:18,970 botocore.hooks DEBUG    Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-07-18 12:19:18,970 botocore.hooks DEBUG    Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-07-18 12:19:18,970 botocore.hooks DEBUG    Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-07-18 12:19:18,970 botocore.hooks DEBUG    Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-07-18 12:19:18,980 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/boto3/data/s3/2006-03-01/resources-1.json
+2021-07-18 12:19:18,990 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/endpoints.json
+2021-07-18 12:19:18,996 botocore.hooks DEBUG    Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f907c58be50>
+2021-07-18 12:19:19,006 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2021-07-18 12:19:19,016 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f907c5bedc0>
+2021-07-18 12:19:19,016 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7f907c7ffd30>
+2021-07-18 12:19:19,030 botocore.hooks DEBUG    Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f907c5beb80>
+2021-07-18 12:19:19,032 botocore.endpoint DEBUG    Setting s3 timeout as (60, 60)
+2021-07-18 12:19:19,034 botocore.loaders DEBUG    Loading JSON file: /home/hukewei33/.local/lib/python3.8/site-packages/botocore/data/_retry.json
+2021-07-18 12:19:19,034 botocore.client DEBUG    Registering retry handlers for service: s3
+2021-07-18 12:19:19,035 boto3.resources.factory DEBUG    Loading s3:s3
+2021-07-18 12:19:19,036 boto3.resources.factory DEBUG    Loading s3:Bucket
+2021-07-18 12:19:19,036 boto3.resources.model DEBUG    Renaming Bucket attribute name
+2021-07-18 12:19:19,038 botocore.hooks DEBUG    Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x7f907c5175e0>
+2021-07-18 12:19:19,038 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:19,038 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:19,038 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:19,038 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:19,039 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:19,039 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:19,040 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:19,040 botocore.utils DEBUG    Defaulting to S3 virtual host style addressing with path style addressing fallback.
+2021-07-18 12:19:19,040 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:19:19,040 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:19:19,040 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:19,040 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:19,040 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614359
+/medflashcards/hsp01.jpg
+2021-07-18 12:19:19,041 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:19,041 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:19,041 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:19,042 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:19,042 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:19,042 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:19,043 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:19,043 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:19,043 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:19,043 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:19,043 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:19,043 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614359
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:19,044 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:19,044 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:19,044 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:19,044 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:19,045 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:19,045 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:19,045 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:19,045 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:19:19,045 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:19:19,045 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:19,045 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:19,046 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614359
+/medflashcards/hsp01.jpg
+2021-07-18 12:19:19,046 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:19,046 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:19,046 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:19,046 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:19,046 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:19,047 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:19,047 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:19,047 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:19,047 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:19,047 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:19,047 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:19,047 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614359
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,003 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:49,003 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:49,004 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:49,004 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:49,004 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:49,005 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:49,007 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:49,008 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:19:49,008 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:19:49,008 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:49,008 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:49,009 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614389
+/medflashcards/hsp01.jpg
+2021-07-18 12:19:49,009 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:49,009 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:49,009 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:49,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:49,010 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:49,010 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:49,010 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:49,010 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,010 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,011 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:49,011 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:49,011 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614389
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:49,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:49,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:49,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:49,012 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:49,013 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:49,013 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:49,013 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:19:49,013 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:19:49,013 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:49,013 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:49,013 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614389
+/medflashcards/hsp01.jpg
+2021-07-18 12:19:49,014 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:19:49,014 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:19:49,014 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:19:49,014 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:19:49,014 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:19:49,015 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:19:49,015 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:19:49,015 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,015 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:19:49,015 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:19:49,015 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:19:49,016 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614389
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:26:53,740 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:26:53,740 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:26:53,740 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:26:53,741 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:26:53,741 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:26:53,741 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:26:53,742 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:26:53,742 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:26:53,742 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:26:53,742 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:26:53,742 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:26:53,742 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614813
+/medflashcards/hsp01.jpg
+2021-07-18 12:26:53,743 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:26:53,743 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:26:53,743 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:26:53,743 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:26:53,744 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:26:53,744 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:26:53,744 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:26:53,744 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:26:53,744 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:26:53,744 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:26:53,745 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:26:53,745 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614813
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:27:00,340 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:27:00,341 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:27:00,343 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:27:00,343 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:27:00,344 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:27:00,344 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:27:00,344 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:27:00,345 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:27:00,345 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:27:00,345 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:27:00,345 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:27:00,345 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614820
+/medflashcards/hsp01.jpg
+2021-07-18 12:27:00,346 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:27:00,346 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:27:00,346 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:27:00,346 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:27:00,346 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:27:00,347 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:27:00,347 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:27:00,348 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:27:00,348 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:27:00,348 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:27:00,348 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:27:00,348 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626614820
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:31:07,433 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:31:07,434 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:31:07,434 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:31:07,436 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:31:07,438 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:31:07,443 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:31:07,446 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:31:07,447 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/hsp01.jpg
+2021-07-18 12:31:07,447 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/hsp01.jpg
+2021-07-18 12:31:07,447 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:31:07,447 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:31:07,448 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626615067
+/medflashcards/hsp01.jpg
+2021-07-18 12:31:07,449 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f907c5aa820>
+2021-07-18 12:31:07,449 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f907c5aa790>
+2021-07-18 12:31:07,450 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f907c0bea00>>
+2021-07-18 12:31:07,450 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x7f907c0beac0>>
+2021-07-18 12:31:07,450 botocore.hooks DEBUG    Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f907c5aa5e0>
+2021-07-18 12:31:07,453 botocore.hooks DEBUG    Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f907c512220>>
+2021-07-18 12:31:07,455 botocore.hooks DEBUG    Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x7f907c0beb50>>
+2021-07-18 12:31:07,455 botocore.utils DEBUG    Checking for DNS compatible bucket for: https://s3.ap-southeast-1.amazonaws.com/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:31:07,456 botocore.utils DEBUG    URI updated to: https://medflashcards.s3.amazonaws.com/audio/reeee_H8hIO2e.mp3
+2021-07-18 12:31:07,456 botocore.auth DEBUG    Calculating signature using hmacv1 auth.
+2021-07-18 12:31:07,456 botocore.auth DEBUG    HTTP request method: GET
+2021-07-18 12:31:07,456 botocore.auth DEBUG    StringToSign:
+GET
+
+
+1626615067
+/medflashcards/audio/reeee_H8hIO2e.mp3
+2021-07-18 13:16:45,913 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 13:57:42,014 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-07-18 13:57:42,015 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 13:57:45,534 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 13:58:14,644 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 13:58:55,180 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 13:59:54,662 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:00:41,369 django.request ERROR    Internal Server Error: /admin/flashCardApp/caseres/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: flashCardApp_caseres.finding_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/admin.py", line 341, in changelist_view
+    return super().changelist_view(request, extra_context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/admin.py", line 504, in changelist_view
+    return super().changelist_view(request, extra_context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1815, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: flashCardApp_caseres.finding_id
+2021-07-18 14:01:32,113 django.request ERROR    Internal Server Error: /admin/flashCardApp/action/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: flashCardApp_action
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/admin.py", line 341, in changelist_view
+    return super().changelist_view(request, extra_context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/admin.py", line 504, in changelist_view
+    return super().changelist_view(request, extra_context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/views/main.py", line 100, in __init__
+    self.get_results(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/contrib/admin/views/main.py", line 235, in get_results
+    result_count = paginator.count
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/paginator.py", line 97, in count
+    return c()
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 412, in count
+    return self.query.get_count(using=self.db)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 517, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 502, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: flashCardApp_action
+2021-07-18 14:02:30,501 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:04:51,215 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:05:35,440 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:12:40,535 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/admin.py changed, reloading.
+2021-07-18 14:12:40,535 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:14:45,408 import_export.resources DEBUG    Field 'id' expected a number but got 'examine sclera and conjunctiva'.
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'examine sclera and conjunctiva'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/resources.py", line 669, in import_row
+    self.save_m2m(instance, row, using_transactions, dry_run)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/resources.py", line 534, in save_m2m
+    self.import_field(field, obj, data, True)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/resources.py", line 495, in import_field
+    field.save(obj, data, is_m2m)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/fields.py", line 110, in save
+    cleaned = self.clean(data)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/fields.py", line 66, in clean
+    value = self.widget.clean(value, row=data)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/import_export/widgets.py", line 446, in clean
+    return self.model.objects.filter(**{
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1391, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1345, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1191, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/lookups.py", line 240, in get_prep_lookup
+    rhs_value = self.lhs.output_field.get_prep_value(rhs_value)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'examine sclera and conjunctiva'.
+2021-07-18 14:15:03,284 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/admin.py changed, reloading.
+2021-07-18 14:15:03,284 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:15:54,037 django.request WARNING  Not Found: /api/examtypes/
+2021-07-18 14:15:55,814 django.request WARNING  Not Found: /api/examtypes/
+2021-07-18 14:16:59,856 django.request WARNING  Unauthorized: /api/case-create/
+2021-07-18 14:17:36,634 django.request ERROR    Internal Server Error: /api/case-create/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 98, in caseCreate
+    defaultRes = list(map(lambda x: x.finding_set.filter(default =True),newCase.system.actions.all()))
+AttributeError: 'NoneType' object has no attribute 'actions'
+2021-07-18 14:21:22,115 django.request ERROR    Internal Server Error: /api/case-create/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 103, in caseCreate
+    CaseRes.objects.create(case = newCase,finding = r[0], req = False)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+2021-07-18 14:23:30,130 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 14:23:30,130 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:23:58,743 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-18 14:23:58,743 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-18 14:40:24,412 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 08:34:20,841 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-19 08:34:20,908 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-19 13:20:01,965 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 13:25:32,339 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 13:25:32,340 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 13:26:27,637 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-19 13:26:27,638 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 13:26:59,402 django.request ERROR    Internal Server Error: /api/actions/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/generics.py", line 282, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/generics.py", line 88, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view CaseDetail to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2021-07-19 13:28:16,301 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-19 13:28:16,302 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 13:39:10,890 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 13:39:10,891 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 13:39:11,627 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:02:23,372 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:02:37,804 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:02:53,007 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-19 14:02:53,008 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:13:00,878 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:13:00,879 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:14:12,476 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:14:12,478 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:14:36,923 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-19 14:14:36,924 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:15:39,174 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-07-19 14:15:39,175 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:15:49,401 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:15:49,402 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:16:36,638 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:16:36,639 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:20:06,625 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-07-19 14:20:06,626 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 14:20:28,007 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-19 14:20:28,008 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-19 16:28:25,547 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-19 16:28:25,576 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-19 16:28:25,895 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-19 16:28:25,924 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 09:09:27,681 django.request WARNING  Not Found: /favicon.ico
+2021-07-23 09:11:27,500 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-23 09:11:27,501 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:16:17,875 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-23 09:16:17,876 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:16:41,148 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-07-23 09:16:41,149 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:16:44,788 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:17:14,797 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:17:21,301 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 09:39:49,462 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 09:39:49,487 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 09:40:09,815 django.request WARNING  Bad Request: /api/login/
+2021-07-23 09:52:06,828 django.request ERROR    Internal Server Error: /api/case-create/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 103, in caseCreate
+    CaseRes.objects.create(case = newCase,finding = r[0], req = True)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 451, in create
+    obj = self.model(**kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: CaseRes() got an unexpected keyword argument 'req'
+2021-07-23 09:53:19,416 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-23 09:53:19,417 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-23 10:44:42,706 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:42,756 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,163 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,217 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,229 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,278 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,292 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,370 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,392 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,484 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,500 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,566 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 10:44:43,577 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 10:44:43,633 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 11:15:23,160 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 11:15:23,185 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 11:15:23,388 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 11:15:23,413 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 11:15:52,537 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 11:15:52,606 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-23 11:15:52,640 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-23 11:15:52,686 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-07-24 02:42:01,632 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-07-24 02:42:01,638 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-24 02:52:44,964 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-24 02:52:45,033 django.request WARNING  Bad Request: /admin
+2021-07-24 02:52:45,697 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-07-24 02:52:45,751 django.request WARNING  Bad Request: /favicon.ico
+2021-07-24 02:53:04,217 django.request WARNING  Not Found: /favicon.ico
+2021-07-24 02:53:09,382 django.request WARNING  Not Found: /admin]
+2021-07-25 07:13:47,896 django.request WARNING  Not Found: /favicon.ico
+2021-07-25 07:25:58,151 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-25 07:25:58,152 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-25 08:04:33,077 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:19:19,677 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:19:19,683 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:19:39,846 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:19:39,847 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:19:56,853 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:19:56,853 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:29:45,675 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/medFlashCards/urls.py changed, reloading.
+2021-07-29 12:29:45,675 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:30:55,569 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:30:55,570 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:33:14,431 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:34:51,121 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-29 12:34:51,121 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:50:29,724 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-07-29 12:50:29,725 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:52:45,425 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:52:45,426 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 12:55:12,814 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-29 12:55:12,815 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:24:15,595 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:24:31,556 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:27:29,666 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:28:03,242 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:28:30,742 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:29:32,847 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:36:15,767 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:36:54,237 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:37:17,733 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:37:56,908 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:38:42,720 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:39:42,870 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:42:10,971 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:42:44,745 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:43:09,408 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:43:56,652 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:47:06,666 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:48:07,633 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:48:37,682 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:48:50,607 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:49:19,371 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:49:34,152 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:51:02,265 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:51:45,208 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/views.py changed, reloading.
+2021-07-29 13:51:45,209 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-29 13:51:47,195 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:56:21,156 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:56:58,931 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:57:12,836 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:57:41,377 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:58:04,135 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 11:59:51,209 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:00:08,776 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:00:21,540 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:02:25,105 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:03:58,660 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:05:56,222 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:15:01,258 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:15:23,860 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:15:34,176 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:17:48,873 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:22:05,364 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:22:21,408 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:23:39,404 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:24:31,781 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:25:39,379 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:26:42,664 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:26:58,056 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:27:58,045 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:28:57,304 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:31:47,066 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:35:18,004 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:37:43,905 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:39:06,712 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:42:23,578 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:43:19,762 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:44:07,263 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:44:49,181 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:47:44,367 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:47:56,415 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:48:05,154 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:53:32,626 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:54:08,565 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:54:28,236 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:54:55,412 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:56:29,458 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:56:50,787 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 12:58:10,822 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:05:24,861 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:07:12,562 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/urls.py changed, reloading.
+2021-07-31 13:07:12,563 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:08:32,950 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:08:40,007 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:08:52,254 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:09:20,066 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:09:20,716 django.request WARNING  Unauthorized: /casedel/1/
+2021-07-31 13:12:57,621 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:13:35,193 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:19:15,088 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:20:35,231 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:21:36,676 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:22:42,135 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:27:17,111 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:28:01,260 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:30:14,547 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:30:29,293 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:30:52,041 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:31:55,762 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 13:32:10,139 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 14:30:34,257 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 14:30:56,473 asyncio      DEBUG    Using selector: EpollSelector
+2021-07-31 14:31:27,448 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 02:17:41,833 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 06:58:46,516 django.request WARNING  Not Found: /favicon.ico
+2021-08-01 07:03:55,448 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-08-01 07:03:55,449 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:03:58,544 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:05:14,221 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:05:31,022 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:06:43,372 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:07:09,803 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:10:56,388 django.request ERROR    Internal Server Error: /api/caserand/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 72, in CaseTestRandom
+    r = random.randrange(Case.objects.all().count())
+  File "/usr/lib/python3.8/random.py", line 216, in randrange
+    raise ValueError("empty range for randrange()")
+ValueError: empty range for randrange()
+2021-08-01 07:21:42,140 django.request ERROR    Internal Server Error: /api/case-res/1/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 111, in caseToCaseResDetail
+    case = Case.objects.get(id=pk)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
+2021-08-01 07:21:52,231 django.request ERROR    Internal Server Error: /api/case-res/1/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 111, in caseToCaseResDetail
+    case = Case.objects.get(id=pk)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
+2021-08-01 07:49:45,124 django.utils.autoreload INFO     /usr/lib/python3.8/asyncio/streams.py changed, reloading.
+2021-08-01 07:49:45,124 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 07:49:50,604 django.utils.autoreload INFO     /usr/lib/python3/dist-packages/yaml/constructor.py changed, reloading.
+2021-08-01 07:49:50,604 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-01 10:35:48,835 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 10:35:48,876 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:03:47,922 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:03:47,956 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:06:28,898 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:06:28,938 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:06:29,172 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:06:29,201 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:06:29,230 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:06:29,281 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:06:29,292 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:06:29,331 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-01 11:06:29,353 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-01 11:06:29,399 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-02 05:04:04,678 django.request WARNING  Not Found: /favicon.ico
+2021-08-02 07:25:55,502 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:26:20,209 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:26:25,563 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:26:33,113 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:34:40,536 django.request ERROR    Internal Server Error: /api/caserand/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 72, in CaseTestRandom
+    r = random.randrange(Case.objects.all().count())
+  File "/usr/lib/python3.8/random.py", line 216, in randrange
+    raise ValueError("empty range for randrange()")
+ValueError: empty range for randrange()
+2021-08-02 07:35:18,528 django.request ERROR    Internal Server Error: /api/caserand/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 72, in CaseTestRandom
+    r = random.randrange(Case.objects.all().count())
+  File "/usr/lib/python3.8/random.py", line 216, in randrange
+    raise ValueError("empty range for randrange()")
+ValueError: empty range for randrange()
+2021-08-02 07:35:25,531 django.request ERROR    Internal Server Error: /api/caserand/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 72, in CaseTestRandom
+    r = random.randrange(Case.objects.all().count())
+  File "/usr/lib/python3.8/random.py", line 216, in randrange
+    raise ValueError("empty range for randrange()")
+ValueError: empty range for randrange()
+2021-08-02 07:35:42,130 django.request WARNING  Unauthorized: /api/case-create/
+2021-08-02 07:38:16,513 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/models.py changed, reloading.
+2021-08-02 07:38:16,514 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:38:20,676 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:38:24,797 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:38:28,444 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-02 07:42:11,017 django.request ERROR    Internal Server Error: /api/case-res/26/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 111, in caseToCaseResDetail
+    case = Case.objects.get(id=pk)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
+2021-08-02 07:42:15,529 django.request ERROR    Internal Server Error: /api/casedel/26/
+Traceback (most recent call last):
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/hukewei33/medFlashCardDocker/flashCardApp/views.py", line 134, in caseDelete
+    case = Case.objects.get(id=pk)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hukewei33/.local/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
+2021-08-02 07:53:11,765 django.request WARNING  Bad Request: /api/login/
+2021-08-05 11:41:08,718 django.request WARNING  Not Found: /favicon.ico
+2021-08-05 11:54:38,858 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-05 11:54:38,922 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-07 12:41:31,891 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 12:45:24,500 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 12:45:43,796 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 12:46:29,703 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 12:46:44,456 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 12:57:03,448 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:01:19,335 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:01:43,872 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:02:01,215 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:03:21,245 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:05:31,543 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:06:01,511 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:10:45,082 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:11:10,392 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:11:39,770 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:39:19,910 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-08-07 13:39:19,911 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:40:24,970 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:55:06,401 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/flashCardApp/serializers.py changed, reloading.
+2021-08-07 13:55:06,403 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 13:55:36,927 asyncio      DEBUG    Using selector: EpollSelector
+2021-08-07 14:11:38,873 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-07 14:11:38,907 django.request WARNING  Bad Request: /caseedit/babel/parser/lib/index.js
+2021-08-07 14:12:59,331 django.request WARNING  Not Found: /caseedit/29/
+2021-08-07 14:13:29,617 django.request WARNING  Not Found: /caseedit/29/
+2021-08-07 14:13:30,782 django.request WARNING  Not Found: /caseedit/29/
+2021-08-07 14:32:00,498 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2021-08-07 14:32:00,528 django.request WARNING  Bad Request: /babel/parser/lib/index.js

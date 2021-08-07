@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Case,CaseRes,ExamType,MedTest,Result
+from .models import Case,CaseRes,System,Action,Finding
 from django.contrib.auth.models import User
 
 #user account serializer
@@ -45,38 +45,43 @@ class CaseSerializer(serializers.ModelSerializer):
         depth = 3
 
 
-class ExamTypeSerializer(serializers.ModelSerializer):
+class SystemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = ExamType
+        model = System
         fields = ('name','id')
         
-class CaseToExamTypeSerializer(serializers.ModelSerializer):
-    examtype = ExamTypeSerializer()
+class CaseToSystemSerializer(serializers.ModelSerializer):
+    system = SystemSerializer()
     class Meta:
         model = Case
         fields = "__all__"
 
 class CaseNormSerializer(serializers.ModelSerializer):
-    #examtype = ExamTypeSerializer()
+    #System = SystemSerializer()
     class Meta:
         model = Case
         fields = "__all__"
 
-class MedTestSerializer(serializers.ModelSerializer):
+class ActionSerializer(serializers.ModelSerializer):
     class Meta:
-        model = MedTest
-        fields = ('name','testcat','result_set')
+        model = Action
+        fields = ('name','finding_set',"loc")
         depth = 1      
 
-class ResultSerializer(serializers.ModelSerializer):
-    medTest = MedTestSerializer()
+class FindingSerializer(serializers.ModelSerializer):
+    action = ActionSerializer()
     class Meta:
-        model = Result
+        model = Finding
         fields = "__all__"
-
+class FindingSerializer1(serializers.ModelSerializer):
+    #action = ActionSerializer()
+    class Meta:
+        model = Finding
+        fields = "__all__"
+        depth = 2   
 class CaseResSerializer1(serializers.ModelSerializer):
     
-    result = ResultSerializer()
+    finding = FindingSerializer()
     class Meta:
         model = CaseRes
         exclude = ['case']
@@ -86,4 +91,4 @@ class CaseToCaseResSerializer(serializers.ModelSerializer):
     caseres_set = CaseResSerializer1(many=True)
     class Meta:
         model=Case
-        fields = ("caseres_set",)
+        fields = ("caseres_set","name","gender","diagnosis","age","system",'id')

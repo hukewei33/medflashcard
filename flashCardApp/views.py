@@ -9,8 +9,8 @@ from rest_framework.response import Response
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from knox.views import LoginView as KnoxLoginView
 from knox.models import AuthToken
-from .serializers import CaseSerializer,CaseResSerializer,ExamTypeSerializer,CaseToExamTypeSerializer,CaseNormSerializer,CaseToCaseResSerializer,UserSerializer, RegisterSerializer
-from .models import Case,CaseRes,ExamType,MedTest
+from .serializers import CaseSerializer,CaseResSerializer,SystemSerializer,CaseToSystemSerializer,CaseNormSerializer,CaseToCaseResSerializer,UserSerializer, RegisterSerializer,FindingSerializer1
+from .models import Case,CaseRes,System,Action,Finding
 import random
 # Create your views here.
 #logging stuff
@@ -57,12 +57,12 @@ def index(request):
 
 #end of logging stuff
 
-#to list all the cases with their examtype
+#to list all the cases with their System
 @api_view(['GET'])
 #@permission_classes((IsAuthenticated,))
 def caseList(request):
 	case = Case.objects.all().order_by('-id')
-	serializer = CaseToExamTypeSerializer(case, many=True)
+	serializer = CaseToSystemSerializer(case, many=True)
 	return Response(serializer.data)
 
 #for testing
@@ -83,21 +83,25 @@ def caseTest(request, pk):
 
 # create a new case
 # list all examtytpes   
-class ExamTypeView(viewsets.ModelViewSet):
-    serializer_class = ExamTypeSerializer
-    queryset = ExamType.objects.all()
+class SystemView(generics.ListCreateAPIView):
+    serializer_class = SystemSerializer
+    queryset = System.objects.all()
 
-#create a new case and create a relationship with default result of each related medtest
+#create a new case and create a relationship with default Finding of each related medtest
 @api_view(['POST'])
 @permission_classes((IsAuthenticated,))
 def caseCreate(request):
     serializer = CaseNormSerializer(data=request.data)
     if serializer.is_valid():
         newCase = serializer.save()
-        #link each new case to default result for all of its tests
-        defaultRes = list(map(lambda x: x.result_set.filter(default =True),newCase.examtype.medtests.all()))
+        #link each new case to default Finding for all of its tests
+        defaultRes = list(map(lambda x: x.finding_set.filter(default =True),newCase.system.actions.all()))
+        #print(defaultRes)
         for r in defaultRes:
-            CaseRes.objects.create(case = newCase,result = r[0], req = False)
+            #check to prevent out of bound index reference and make loop safe, but it should not happen
+            if len(r) !=0: 
+                #CaseRes.objects.create(case = newCase,finding = r[0], req = True)
+                CaseRes.objects.create(case = newCase,finding = r[0])
     
     return Response(serializer.data)
 
@@ -108,7 +112,7 @@ def caseToCaseResDetail(request, pk):
 	serializer = CaseToCaseResSerializer(case, many=False)
 	return Response(serializer.data)
 #edit individual caseres
-@api_view(['POST'])
+@api_view(['POST','PATCH'])
 def caseResUpdate(request, pk):
 	caseres = CaseRes.objects.get(id=pk)
 	serializer = CaseResSerializer(instance=caseres, data=request.data)
@@ -125,10 +129,17 @@ class CaseDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = CaseNormSerializer
 
 @api_view(['DELETE','GET'])
+@permission_classes((IsAuthenticated,))
 def caseDelete(request, pk):
 	case = Case.objects.get(id=pk)
 	case.delete()
 	return Response(status=status.HTTP_204_NO_CONTENT)
+
+#index all default findings
+class FindingsList(generics.ListCreateAPIView):
+    queryset = Finding.objects.filter(default=True)
+    serializer_class = FindingSerializer1
+
 # Register API
 class RegisterAPI(generics.GenericAPIView):
     serializer_class = RegisterSerializer

@@ -2,65 +2,67 @@ from django.contrib import admin
 from import_export.admin import ImportExportModelAdmin
 from import_export import fields,resources
 from import_export.widgets import ForeignKeyWidget , ManyToManyWidget
-from .models import Result,Case,CaseRes,MedTest, TestCat, ExamType,Loc 
+#from .models import Finding,Case,CaseRes,Action, TestCat, System,Loc 
+from .models import Finding,Case,CaseRes,Action,  System,Loc 
 # Register your models here.
 #admin.site.register(Result)
 # admin.site.register(Case)
 # admin.site.register(CaseRes)
-# admin.site.register(ExamType)
-# admin.site.register(MedTest)
+# admin.site.register(System)
+# admin.site.register(Action)
 # admin.site.register(TestCat)
 #admin.site.register(Loc)
 
-@admin.register(Loc,Case,CaseRes,TestCat)
+@admin.register(Loc,Case,CaseRes)
 class viewAdmin(ImportExportModelAdmin):
     pass
 
-class MedTestResource(resources.ModelResource):
-    testcat = fields.Field(
-        column_name="testcat",
-        attribute="testcat",
-        widget=ForeignKeyWidget(TestCat, 'name'))
+class ActionResource(resources.ModelResource):
+    # testcat = fields.Field(
+    #     column_name="testcat",
+    #     attribute="testcat",
+    #     widget=ForeignKeyWidget(TestCat, 'name'))
     loc = fields.Field(
         column_name="loc",
         attribute="loc",
         widget=ForeignKeyWidget(Loc, 'name'))
     class Meta:
-        model = MedTest
-        fields = ("id","name",	"testcat",	"loc",)
+        model = Action
+        #fields = ("id","name",	"testcat",	"loc",)
+        fields = ("id","name","loc",)
 
-class MedTestAdmin(ImportExportModelAdmin):
-    resource_class = MedTestResource
+class ActionAdmin(ImportExportModelAdmin):
+    resource_class = ActionResource
 
-admin.site.register(MedTest, MedTestAdmin)
+admin.site.register(Action, ActionAdmin)
 
-class ResultResource(resources.ModelResource):
-    medTest = fields.Field(
-        column_name="medTest",
-        attribute="medTest",
-        widget=ForeignKeyWidget(MedTest, 'name'))
+class FindingResource(resources.ModelResource):
+    action = fields.Field(
+        column_name="action",
+        attribute="action",
+        widget=ForeignKeyWidget(Action, 'name'))
     
     class Meta:
-        model = Result
-        fields = ("id","name",	"medTest",	"default",)
+        model = Finding
+        fields = ("id","name",	"action",	"default",)
 
-class ResultAdmin(ImportExportModelAdmin):
-    resource_class = ResultResource
+class FindingAdmin(ImportExportModelAdmin):
+    resource_class = FindingResource
 
-admin.site.register(Result, ResultAdmin)
+admin.site.register(Finding, FindingAdmin)
 
 
-class ExamTypeResource(resources.ModelResource):
-    medtests = fields.Field(
-        column_name="medtests",
-        attribute="medtests",
-        widget=ManyToManyWidget(MedTest, field = "name"))
+class SystemResource(resources.ModelResource):
+    actions = fields.Field(
+        column_name="actions",
+        attribute="actions",
+        widget=ManyToManyWidget(Action, field = "name"))
     
     class Meta:
-        model = ExamType
-        fields = ("id","name",	"medtests",	)
+        model = System
+        fields = ("id","name",	"actions",	)
 
-class ExamTypeAdmin(ImportExportModelAdmin):
-    resource_class = ExamTypeResource
+class SystemAdmin(ImportExportModelAdmin):
+    resource_class = SystemResource
 
-admin.site.register(ExamType, ExamTypeAdmin)
+admin.site.register(System, SystemAdmin)

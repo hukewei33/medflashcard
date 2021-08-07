@@ -23,14 +23,14 @@ from rest_framework import routers
 from flashCardApp import views
 
 
-router = routers.DefaultRouter()
+# router = routers.DefaultRouter()
 
-router.register(r'examtypes', views.ExamTypeView)
+# router.register(r'systems', views.SystemView)
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+#    path('api/', include(router.urls)),
     path('api/', include('flashCardApp.urls')),
 #added new path here to not require /api so default page is also defined
     path('', include('flashCardApp.urls')),
