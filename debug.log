@@ -1130,3 +1130,5 @@ flashCardApp.models.Case.DoesNotExist: Case matching query does not exist.
 2021-08-07 14:13:30,782 django.request WARNING  Not Found: /caseedit/29/
 2021-08-07 14:32:00,498 django.security.DisallowedHost ERROR    Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
 2021-08-07 14:32:00,528 django.request WARNING  Bad Request: /babel/parser/lib/index.js
+2021-08-07 20:01:07,013 django.utils.autoreload INFO     /home/hukewei33/medFlashCardDocker/medFlashCards/settings.py changed, reloading.
+2021-08-07 20:01:07,016 asyncio      DEBUG    Using selector: EpollSelector
